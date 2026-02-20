@@ -31,7 +31,8 @@ demonstrate end-to-end data analytics capabilities.
 
 ## 📂 Project Structure
 
-    	Global-Superstore-Data-Analysis/
+```
+Global-Superstore-Data-Analysis/
 │
 ├── data/
 │ ├── raw/ # Original raw dataset file (txt)
@@ -45,7 +46,7 @@ demonstrate end-to-end data analytics capabilities.
 │ └── tables/ # All tables saved as CSV
 │
 └── README.md # This file
-
+```
 
 ------------------------------------------------------------------------
 ## 📂Folder details:
