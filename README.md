@@ -54,7 +54,6 @@ Global-Superstore-Data-Analysis/
 │       └── page4_key_insights.png
 │
 └── README.md                   # Project documentation
-``````
 
 ------------------------------------------------------------------------
 ## 📂Folder details:
