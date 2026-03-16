@@ -25,28 +25,36 @@ demonstrate end-to-end data analytics capabilities.
 
 -   Python (Pandas, NumPy, Matplotlib, Seaborn, Pathlib, dotenv, Anthropic)
 -   Jupyter Notebook
+-   PowerBI
 -   Claude AI (for analytical interpretation & business insights)
 
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-```
 Global-Superstore-Data-Analysis/
 │
 ├── data/
-│ ├── raw/ # Original raw dataset file (txt)
-│ └── processed/ # Cleaned CSVs used in analysis
+│   ├── raw/                    # Original raw dataset file
+│   └── processed/              # Cleaned CSVs used in analysis
 │
 ├── notebooks/
-│ └── Global_Superstore_Project_Analysis.ipynb # Main Jupyter notebook
+│   └── Global_Superstore_Project_Analysis.ipynb   # Main Jupyter notebook
 │
 ├── outputs/
-│ ├── figures/ # All plots saved as PNG
-│ └── tables/ # All tables saved as CSV
+│   ├── figures/                # Python plots saved as PNG
+│   └── tables/                 # Analysis tables saved as CSV
 │
-└── README.md # This file
-```
+├── powerbi/
+│   ├── Global_Superstore_Dashboard.pbix           # Power BI dashboard file
+│   └── dashboard_screenshots/
+│       ├── page1_executive_overview.png
+│       ├── page2_product_insights.png
+│       ├── page3_customer_analysis.png
+│       └── page4_key_insights.png
+│
+└── README.md                   # Project documentation
+``````
 
 ------------------------------------------------------------------------
 ## 📂Folder details:
@@ -75,6 +83,59 @@ These actions can drive sustainable profit growth while maintaining revenue mome
 
 
 ------------------------------------------------------------------------
+
+## 📊 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to visualize key performance metrics, regional performance, product insights, and customer trends derived from the cleaned dataset.
+
+### Dashboard Pages
+
+1. **Executive Overview**
+   - Total Sales
+   - Total Profit
+   - Profit Margin
+   - Sales Trend Over Time
+   - Regional Revenue Distribution
+
+2. **Product Insights**
+   - Profit by Category
+   - Profit by Sub-Category
+   - Discount vs Profit Impact
+   - Product Performance Comparison
+
+3. **Customer Analysis**
+   - Customer Purchase Frequency
+   - Customer Revenue Contribution
+   - Repeat Customer Trends
+
+4. **Key Business Insights**
+   - Summary of major findings
+   - Strategic improvement areas
+
+### Dashboard Preview
+
+#### Executive Overview
+![Executive Overview](powerbi/dashboard_screenshots/page1_executive_overview.png)
+
+#### Product Insights
+![Product Insights](powerbi/dashboard_screenshots/page2_product_insights.png)
+
+#### Customer Analysis
+![Customer Analysis](powerbi/dashboard_screenshots/page3_customer_analysis.png)
+
+#### Key Insights
+![Key Insights](powerbi/dashboard_screenshots/page4_key_insights.png)
+
+### Dashboard File
+```
+powerbi/Global_Superstore_Dashboard.pbix
+```
+
+The Power BI dashboard integrates insights from the Python analysis and provides an interactive interface for exploring sales performance, product profitability, and customer behavior.
+
+
+------------------------------------------------------------------------
+
 
 ## 🤖 AI-Assisted Analysis
 
