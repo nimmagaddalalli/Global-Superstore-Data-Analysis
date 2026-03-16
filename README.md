@@ -63,6 +63,7 @@ Global-Superstore-Data-Analysis/
 - data/processed/** – Cleaned CSVs ready for analysis  
 - outputs/figures/** – Saved plots such as sales trends, profit trends, growth trends, and boxplots  
 - outputs/tables/** – Summary tables such as profit by category, sub-category, market, customer retention, purchase frequency, product affinity, and cross-selling opportunities
+- powerbi/dashboardscreenshots/** – Saved all the 4 dashboard pages screeshots
 
 ------------------------------------------------------------------------
 
