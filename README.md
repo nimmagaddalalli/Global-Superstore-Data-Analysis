@@ -116,20 +116,20 @@ An interactive Power BI dashboard was developed to visualize key performance met
 ### Dashboard Preview
 
 #### Executive Overview
-![Executive Overview](powerbi/dashboard_screenshots/page1_executive_overview.png)
+![Executive Overview](powerbi/dashboard_screenshots/page1_Executive_Overview.png)
 
 #### Product Insights
-![Product Insights](powerbi/dashboard_screenshots/page2_product_insights.png)
+![Product Insights](powerbi/dashboard_screenshots/page2_Product_Insights.png)
 
 #### Customer Analysis
-![Customer Analysis](powerbi/dashboard_screenshots/page3_customer_analysis.png)
+![Customer Analysis](powerbi/dashboard_screenshots/page3_Customer_Analysis.png)
 
 #### Key Insights
-![Key Insights](powerbi/dashboard_screenshots/page4_key_insights.png)
+![Key Insights](powerbi/dashboard_screenshots/page4_Key_Insights.png)
 
 ### Dashboard File
 ```
-powerbi/Global_Superstore_Dashboard.pbix
+powerbi/global_superstore_dashboard.pbix
 ```
 
 The Power BI dashboard integrates insights from the Python analysis and provides an interactive interface for exploring sales performance, product profitability, and customer behavior.
